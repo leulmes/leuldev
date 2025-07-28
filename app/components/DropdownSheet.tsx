@@ -55,9 +55,6 @@ const MobileNavLink = ({ title, href, menu, setMenu }: activeProps2) => {
       <ScrollIntoView selector={href} onClick={() => setMenu(!menu)}>
         {title}
       </ScrollIntoView>
-      {/* <Link href={href} onClick={() => setMenu(!menu)}>
-				{title}
-			</Link> */}
     </motion.div>
   )
 }
@@ -82,7 +79,7 @@ const DropdownSheet = ({ menu, setMenu }: activeProps) => {
       initial='initial'
       animate='animate'
       exit='exit'
-      className='flex h-full w-full origin-top items-center justify-center bg-gradient-to-br from-[#36333950] from-0% via-[#6EBFF422] via-75% to-[#4690D401] to-100% p-5 backdrop-blur-md backdrop-filter'
+      className='flex h-screen w-full origin-top items-center justify-center bg-gradient-to-br from-[#36333950] from-0% via-[#6EBFF422] via-75% to-[#4690D401] to-100% p-5 backdrop-blur-md backdrop-filter'
     >
       <motion.div
         variants={containerVars}

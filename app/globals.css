@@ -6,6 +6,7 @@
   --font-pixelify: var(--font-pixelify);
 }
 
+
 @theme {
   --animate-wave: wave 1.5s infinite;
 
