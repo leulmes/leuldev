@@ -14,7 +14,7 @@ import {
 } from './components/SvgIcons'
 import Footer from './components/Footer'
 import { posts } from '@/posts'
-
+// hi
 export default function Home() {
   const [menu, setMenu] = useState(false)
   const ref = useRef<HTMLDivElement | null>(null)
