@@ -17,7 +17,7 @@ const pixelify_sans_init = Pixelify_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'leuldev',
+  title: 'Leul Mesfin',
   description: 'Designed & Developed by Leul Mesfin ;)',
 }
 
