@@ -13,5 +13,5 @@ Domain name from Hostinger
 Inspiration<br>
 
 kushaldevv site: https://kdev.app<br>
-ryanabeysinghe site: https://ryanabeysinghe.com
+ryanabeysinghe site: https://ryanabeysinghe.com<br>
 leerob: https://leerob.com
