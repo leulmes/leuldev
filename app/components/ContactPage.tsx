@@ -37,7 +37,11 @@ const ContactPage = () => {
         toast.success('Message sent!')
       } else {
         console.log('Message failed to send', resp)
+        toast.error('Message failed to send')
       }
+      setName('')
+      setEmail('')
+      setMessage('')
       console.log('status: ', resp)
     } catch (error) {
       return error
@@ -57,6 +61,7 @@ const ContactPage = () => {
           <input
             type='input'
             id='name'
+            value={name}
             className='h-10 w-80 rounded border border-white pl-2 text-white'
             onChange={(e) => setName(e.target.value)}
             required
@@ -70,6 +75,7 @@ const ContactPage = () => {
           <input
             type='email'
             id='email'
+            value={email}
             className='h-10 w-80 rounded border border-white pl-2 text-white'
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -82,6 +88,7 @@ const ContactPage = () => {
           </label>
           <textarea
             id='message'
+            value={message}
             className='h-40 w-80 rounded border border-white pt-2 pl-2 text-white'
             onChange={(e) => setMessage(e.target.value)}
             required
