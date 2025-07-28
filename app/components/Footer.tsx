@@ -13,7 +13,7 @@ const Footer = () => {
         <span className='flex gap-1'>
           built with 💗 by
           <Link
-            href={'https://github.com/leulmes/portfolio-site'}
+            href={'https://github.com/leulmes/leuldev'}
             target='_blank'
             rel='noopener noreferrer'
             className='cursor-pointer underline-offset-4 hover:underline'

@@ -19,12 +19,20 @@ export default function Home() {
   const [menu, setMenu] = useState(false)
   const ref = useRef<HTMLDivElement | null>(null)
 
-  useEffect(() => {
-    // review this
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' })
-    }
-  }, [])
+//   useEffect(() => {
+//     // review this
+//     if (ref.current) {
+//       ref.current.scrollIntoView({ behavior: 'smooth' })
+//     }
+//   }, [])
+useEffect(() => {
+    const scrollToSection = () => {
+      const section = document.getElementById('#first-section');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+  }, []);
 
   // if menu is toggled
   useEffect(() => {
@@ -54,7 +62,7 @@ export default function Home() {
         <div className='md:flex md:flex-col md:items-center md:justify-center'>
           <div
             id='first-section'
-            className='flex flex-col items-center justify-center gap-8 text-white md:flex-row mb-80 -mt-40'
+            className='flex flex-col items-center justify-center gap-8 text-white md:flex-row mb-80 -mt-44 md:-mt-0'
           >
             <Image
               src='/profile.png'
