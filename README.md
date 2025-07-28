@@ -10,7 +10,8 @@ Domain name from Hostinger
 
 ##
 
-Big thanks to kushaldevv and ryanabeysinghe for the inspiration & feedback!<br>
+Inspiration<br>
 
 kushaldevv site: https://kdev.app<br>
 ryanabeysinghe site: https://ryanabeysinghe.com
+leerob: https://leerob.com
