@@ -14,5 +14,3 @@ Big thanks to kushaldevv and ryanabeysinghe for the inspiration & feedback!<br>
 
 kushaldevv site: https://kdev.app<br>
 ryanabeysinghe site: https://ryanabeysinghe.com
-# leuldev
-# leuldev
