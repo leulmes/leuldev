@@ -54,10 +54,10 @@ export default function Home() {
         <div className='md:flex md:flex-col md:items-center md:justify-center'>
           <div
             id='first-section'
-            className='mb-80 flex flex-col items-center justify-center gap-8 text-white md:flex-row'
+            className='flex flex-col items-center justify-center gap-8 text-white md:flex-row mb-80 -mt-40'
           >
             <Image
-              src='profile.png'
+              src='/profile.png'
               width={350}
               height={350}
               alt='Picture of the author'
