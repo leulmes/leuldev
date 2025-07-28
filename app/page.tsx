@@ -131,7 +131,7 @@ useEffect(() => {
             </div>
           </div>
           <div id='second-section' className='flex flex-col items-center mb-28'>
-			<h1 className='font-main text-5xl font-bold text-white pb-6'>
+			<h1 className='font-main text-5xl font-bold text-white pb-6 mt-20'>
               Blog
             </h1>
             <ul className='text-white pl-5 list-disc font-main text-xl'>
@@ -145,12 +145,12 @@ useEffect(() => {
             </ul>
           </div>
           <div id='third-section' className='mb-28 flex flex-col items-center'>
-            <h1 className='font-main text-5xl font-bold text-white'>
-              Projects
+            <h1 className='font-main text-5xl font-bold text-white mt-20'>
+              <span>Projects</span>
             </h1>
-            <div className='mt-5 mr-3 ml-3 max-w-[36rem]'>
+            <div className='mr-3 ml-3 max-w-[36rem]'>
               <h1 className='font-main pt-14 text-4xl font-bold text-white'>
-                Music Transfer
+                <span>Music Transfer</span>
               </h1>
               <div className='flex gap-1 text-sm font-medium text-white'>
                 <span className=''>React,</span>
