@@ -1,6 +1,6 @@
 ## Personal Portfolio Site 💻 💫
 
-Here is my personal portfolio page. This is where I showcase my projects and current experience.
+Here is my personal portfolio page. This is where I blog and post my projects
 
 ## Tech Stack 👾
 
